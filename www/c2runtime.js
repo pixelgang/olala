@@ -18109,9 +18109,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch,
 	cr.plugins_.EnhanceIncConstructPlugin,
 	cr.system_object.prototype.cnds.OnLayoutStart,
-	cr.system_object.prototype.cnds.Every,
 	cr.plugins_.EnhanceIncConstructPlugin.prototype.acts.showBannerAd,
+	cr.system_object.prototype.cnds.Every,
 	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
-	cr.plugins_.EnhanceIncConstructPlugin.prototype.acts.hideBannerAd,
-	cr.plugins_.EnhanceIncConstructPlugin.prototype.acts.showInterstitialAd
+	cr.plugins_.EnhanceIncConstructPlugin.prototype.acts.showInterstitialAd,
+	cr.plugins_.EnhanceIncConstructPlugin.prototype.acts.showRewardedAd,
+	cr.system_object.prototype.acts.GoToLayout
 ];};
